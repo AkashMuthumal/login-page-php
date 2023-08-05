@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("bg.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.register-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 300px;
+    border:none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px;
+    border-width: 1px;
+    background-color: aliceblue;
+}
+
+.header-name {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    
+    color: rgb(0, 32, 126);
+}
+
+.username-container {
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.username-textbox {
+    width: 86%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-style: solid;
+    outline: none;
+    border-color: rgb(59, 3, 138);;
+    padding: 10px 0;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.username-label {
+    color: rgb(59, 3, 138);
+    display: inline-block;
+}
+
+#username-taken-label {
+    display: inline-block;
+    padding-left: 10px;
+    color: red;
+}
+
+.password-container {
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.password-textbox {
+    width: 86%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-style: solid;
+    outline: none;
+    border-color: rgb(59, 3, 138);;
+    padding: 10px 0;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.password-label {
+    color: rgb(59, 3, 138);
+    display: inline-block;
+}
+
+#password-taken-label {
+    display: inline-block;
+    padding-left: 10px;
+    color: red;
+}
+
+.register-button {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: rgb(59, 3, 138);;
+    padding: 10px 0;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
